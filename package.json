@@ -1,8 +1,14 @@
 {
   "name": "root",
   "private": true,
-  "workspaces": [
-    "nextjs/*",
-    "astro/*"
-  ]
+  "scripts": {
+    "dev": "pnpm --filter wix-headless-example dev"
+  },
+  "dependencies": {
+    "@wix/bookings": "^1.0.980",
+    "@wix/data": "^1.0.270",
+    "@wix/pricing-plans": "^1.0.211",
+    "@wix/sdk": "^1.15.26",
+    "@wix/stores": "^1.0.498"
+  }
 }
